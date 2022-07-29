@@ -34,7 +34,7 @@ public class MyAdapter extends RecyclerView.Adapter<FoodViewHolder>{
     @Override
     public void onBindViewHolder( FoodViewHolder holder, int position) {
 
-        holder.imageView.setImageResource(myFoodData.get(position).getItmeImage());
+        //holder.imageView.setImageResource(myFoodData.get(position).getItmeImage());
         holder.item_name.setText(myFoodData.get(position).getItemName());
         holder.item_dis.setText(myFoodData.get(position).getItemDescription());
         holder.item_price.setText(myFoodData.get(position).getItemPrice());

@@ -5,9 +5,9 @@ public class FoodData {
     private String itemName;
     private String itemDescription;
     private String itemPrice;
-    private int itmeImage;
+    private String itmeImage;
 
-    public FoodData(String itemName, String itemDescription, String itemPrice, int itmeImage) {
+    public FoodData(String itemName, String itemDescription, String itemPrice, String itmeImage) {
         this.itemName = itemName;
         this.itemDescription = itemDescription;
         this.itemPrice = itemPrice;
@@ -26,7 +26,7 @@ public class FoodData {
         return itemPrice;
     }
 
-    public int getItmeImage() {
+    public String getItmeImage() {
         return itmeImage;
     }
 }
